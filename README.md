@@ -7,6 +7,7 @@ It helps detect and classify agricultural pests from images, with a Tkinter-base
 If the model encounters an unknown or untrained pest image, it reports the result as "Unknown" (based on a confidence threshold).
 
 🌟 Features
+
 ✅ Pest classification using a trained CNN (pest.h5)
 
 ✅ Tkinter-based graphical user interface (GUI)
@@ -18,39 +19,68 @@ If the model encounters an unknown or untrained pest image, it reports the resul
 ✅ Detects common agricultural pests like:
 
 ◆ Aphids
+
 ◆ Armyworm
+
 ◆ Beetle
+
 ◆ Bollworm
+
 ◆ Grasshopper
+
 ◆ Mites
+
 ◆ Mosquito
+
 ◆ Sawfly
+
 ◆ Stem Borer
+
+
 ✅ Tkinter-based GUI with buttons for:
 
 → Image upload
+
 → Model testing
+
 → Grayscale conversion
+
 → Object detection with bounding boxes
+
 ✅ Displays causes and prevention suggestions for each detected pest.
 
 ✅ Rejects random/unrelated images as Unknown when confidence is low.
+
 📦 Requirements
+
 The key libraries used are:
 
 tensorflow
+
 keras
+
 numpy
+
 opencv-python
+
 pillow
+
 matplotlib
+
 scikit-learn
+
 tkvideo
+
 mediapipe
+
 gtts
+
 pandas
+
 flask
+
 mlxtend
+
 Full list included in requirements.txt.
 
 💡 Future Improvements
@@ -64,6 +94,7 @@ Full list included in requirements.txt.
 ✨ Add Docker support for consistent deployment
 
 🙌 Credits
+
 Developed by Kirti Girase
 
 For questions: kirtirgirase@gmail.com
